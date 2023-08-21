@@ -11,7 +11,7 @@ class Player:
         self.name = name
         self.playing_piece = None
 
-    def set_playing_piece(self, piece):
+    def set_playing_piece(self, piece: PieceType):
         self.playing_piece = piece
 
     def get_player_name(self):
